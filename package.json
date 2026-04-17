@@ -1,0 +1,24 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Aplicación meteorológica en JavaScript puro siguiendo principios de Clean Code",
+  "main": "src/js/app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "open src/index.html"
+  },
+  "keywords": ["weather", "api", "javascript", "clean-code"],
+  "author": "Desarrollador Senior",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  }
+}

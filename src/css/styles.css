@@ -1,0 +1,76 @@
+/* Estilos para la aplicación del clima */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.search-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#city-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+}
+
+#search-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#search-button:hover {
+  background-color: #0056b3;
+}
+
+#weather-display {
+  text-align: center;
+}
+
+#weather-display h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#weather-display img {
+  width: 100px;
+  height: 100px;
+}
+
+#weather-display p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
